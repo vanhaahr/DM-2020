@@ -83,7 +83,7 @@ VALUES('p13','Annika','051285-8072','21092109');
 --room table
 Create table Rooms(
 Room_id serial primary key,
-Room_number varchar(3) not null,
+Room_number varchar(3) unique not null,
 room_type varchar (50) not null
 );
 drop table Rooms;

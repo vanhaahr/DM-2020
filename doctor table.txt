@@ -1,0 +1,17 @@
+doctor table
+doctor number - doctor name  -phone - designation - Charges pr hour
+
+patient table
+patient name - cpr number - patient phone
+
+department table
+-room adress department ID
+
+
+room table
+room number - room type 
+
+bed table
+bed_id - bed_number
+
+
